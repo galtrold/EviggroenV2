@@ -1,0 +1,37 @@
+﻿.outer-frame {
+    min-height: 600px;
+    margin-top: 50px;
+    /*border: solid black 1px;*/
+   
+
+}
+.container-fluid {
+     background-color: #efefef;
+}
+.sidenav-img {
+    padding: 10px 25px 0px 25px;
+}
+
+.frontpage-block {
+    margin: 50px 100px;
+    padding: 100px 100px;
+}
+
+
+.btn-nav i {
+    color: black;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.contact-form a{
+    color: white;
+}
+
+.left-buffer {
+    margin-left: 20px;
+}
+
+.parallax-container {
+      height: 800px;
+}

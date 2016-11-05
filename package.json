@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "eviggroen",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+    "materialize-css": "^0.97.7"
+  }
+}
