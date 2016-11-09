@@ -1,12 +1,21 @@
 ﻿.outer-frame {
     min-height: 600px;
-    margin-top: 50px;
+    margin-top: 10px;
     /*border: solid black 1px;*/
    
 
 }
+
+.eg-grey {
+    background-color: #cdccca 
+}
+
+.logo{
+    padding: 10px;
+}
+
 .container-fluid {
-     background-color: #efefef;
+     
 }
 .sidenav-img {
     padding: 10px 25px 0px 25px;
@@ -44,4 +53,14 @@
 
 .parallax-container {
       height: 800px;
+}
+
+header, main, footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
 }
