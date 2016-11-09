@@ -5,4 +5,4 @@ WORKDIR /app
 EXPOSE 5000/tcp
 ENV ASPNETCORE_URLS http://*:5000
  
-#ENTRYPOINT ["dotnet", "run"]
+ENTRYPOINT ["dotnet", "EviggroenV2.dll"]

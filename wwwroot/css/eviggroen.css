@@ -12,9 +12,19 @@
     padding: 10px 25px 0px 25px;
 }
 
-.frontpage-block {
-    margin: 50px 100px;
-    padding: 100px 100px;
+
+@media only screen and (min-width: 601px) {
+    .frontpage-block {
+        margin: 50px 100px;
+        padding: 100px 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .frontpage-block {
+        
+        padding: 100px 20px;
+    }
 }
 
 
